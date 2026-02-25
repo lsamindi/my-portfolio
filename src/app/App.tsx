@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { Twitter, Mail, Instagram, Facebook, ArrowUpRight, ChevronDown, Linkedin, Phone, ExternalLink, Globe } from "lucide-react";
 
 const LIME = "#D4FF4F";
-const profileImg = new URL("../assets/images/W4.jpg", import.meta.url).href;
+const profileImg = "/images/W4.jpg";
 
 const projects = [
   {
@@ -12,7 +12,7 @@ const projects = [
     tag: "FinTech",
     type: "featured",
     highlights: ["User Flows", "Wireframing", "Prototyping"],
-    image: "/src/assets/images/FlexPay.png",
+    image: "/images/FlexPay.png",
     stat: "150K+",
     statSub: "Transactions",
   },
@@ -23,7 +23,7 @@ const projects = [
     tag: "Web Design",
     type: "featured",
     highlights: ["Responsive Design", "CTA Optimization", "Visual Hierarchy"],
-    image: "/src/assets/images/Cleaning Website.png",
+    image: "/images/Cleaning Website.png",
     stat: "↑ 45%",
     statSub: "User Engagement",
   },
@@ -34,7 +34,7 @@ const projects = [
     tag: "Corporate",
     type: "featured",
     highlights: ["Brand Design", "UX Research", "Development"],
-    image: "/src/assets/images/Software Company.png",
+    image: "/images/Software Company.png",
     stat: "8.5★",
     statSub: "Client Rating",
   },
@@ -45,7 +45,7 @@ const projects = [
     tag: "Travel",
     type: "featured",
     highlights: ["Cultural Design", "Localization", "User Testing"],
-    image: "/src/assets/images/Visa Company.png",
+    image: "/images/Visa Company.png",
     stat: "4.9★",
     statSub: "User Satisfaction",
   },
@@ -56,7 +56,7 @@ const projects = [
     tag: "Studio",
     type: "featured",
     highlights: ["Portfolio Design", "Brand Identity", "UI Components"],
-    image: "/src/assets/images/Bathroom Studio Website.png",
+    image: "/images/Bathroom Studio Website.png",
     stat: "12K+",
     statSub: "Monthly Visits",
   },
@@ -67,7 +67,7 @@ const projects = [
     tag: "Travel",
     type: "featured",
     highlights: ["Booking System", "Gallery Display", "User Experience"],
-    image: "/src/assets/images/Travel Website.png",
+    image: "/images/Travel Website.png",
     stat: "↑ 35%",
     statSub: "Booking Rate",
   },
@@ -78,7 +78,7 @@ const projects = [
     tag: "F&B",
     type: "featured",
     highlights: ["Mobile First", "Reservations", "Menu Design"],
-    image: "/src/assets/images/Resturent.png",
+    image: "/images/Resturent.png",
     stat: "200+",
     statSub: "Daily Bookings",
   },
@@ -89,7 +89,7 @@ const projects = [
     tag: "Gallery",
     type: "featured",
     highlights: ["Minimalist Design", "Gallery Layout", "Typography"],
-    image: "/src/assets/images/Artist Portfolio.png",
+    image: "/images/Artist Portfolio.png",
     stat: "10K+",
     statSub: "Monthly Visitors",
   },
@@ -100,7 +100,7 @@ const projects = [
     tag: "Finance",
     type: "featured",
     highlights: ["Data Visualization", "Analytics", "User Research"],
-    image: "/src/assets/images/Budget Management App.png",
+    image: "/images/Budget Management App.png",
     stat: "5★",
     statSub: "App Rating",
   },
